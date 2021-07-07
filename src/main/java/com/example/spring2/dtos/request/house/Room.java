@@ -1,4 +1,4 @@
-package com.example.spring2.dtos.request;
+package com.example.spring2.dtos.request.house;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

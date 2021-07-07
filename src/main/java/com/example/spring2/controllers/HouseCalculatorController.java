@@ -1,6 +1,6 @@
 package com.example.spring2.controllers;
 
-import com.example.spring2.dtos.request.House;
+import com.example.spring2.dtos.request.house.House;
 import com.example.spring2.dtos.response.houseDTOs.BiggestRoomResponseDTO;
 import com.example.spring2.dtos.response.houseDTOs.HousePriceResponseDTO;
 import com.example.spring2.dtos.response.houseDTOs.MetersResponseDTO;

@@ -1,8 +1,9 @@
-package com.example.spring2.dtos.request;
+package com.example.spring2.dtos.request.house;
 
 import lombok.Data;
 import org.springframework.validation.annotation.Validated;
 
+import javax.validation.Valid;
 import javax.validation.constraints.*;
 import java.util.ArrayList;
 
@@ -18,6 +19,7 @@ public class House {
     private String adress;
 
     @NotEmpty(message = "Esta colección esta vacía")
+    @Valid
     private ArrayList<Room> listRooms;
 
 }

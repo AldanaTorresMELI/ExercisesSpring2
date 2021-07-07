@@ -1,6 +1,6 @@
 package com.example.spring2.dtos.response.houseDTOs;
 
-import com.example.spring2.dtos.request.Room;
+import com.example.spring2.dtos.request.house.Room;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
